@@ -1,0 +1,55 @@
+# Ignore the .idea folder (PyCharm project configuration files)
+.idea/
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage files
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore generated distribution files
+dist/
+build/
+*.egg-info/
+
+# Ignore temporary files created by editors or OS
+*.swp
+*.swo
+*.tmp
+
+# Ignore IDE-specific settings (e.g., VS Code)
+.vscode/
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# ignore data folder
+.data/
