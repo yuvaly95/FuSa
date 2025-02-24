@@ -52,4 +52,8 @@ build/
 *.sqlite3
 
 # ignore data folder
-.data/
+data/
+/src/data/
+/src/Automatic summarization/data
+/src/sagemaker/data
+*/data
